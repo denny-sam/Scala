@@ -1,6 +1,6 @@
 //90-days coding challenge
 //Vipul Vaibhaw
- 
+//Example about I/O and functions
  object InputExample {
   def main (args: Array[String]){
     println("Enter number of lines: ");
