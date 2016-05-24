@@ -2,13 +2,13 @@ import java.io._;
 
 object FileWriter {
   def main (args:Array[String]){
-    write("Hello");
+    write("Test","Hello");
   }
-  def write(x:String){
-    val writer = new File("SüddeutscheZeitung.txt" )
+  def write(x:String,y:String){
+    val writer = new File(x+".txt" )
     val bw = new BufferedWriter(new FileWriter(writer,true))
     val out = new PrintWriter(bw)
-    out.println(x+"\n")
+    out.println(y+"\n")
     bw.close();
   }
 }
