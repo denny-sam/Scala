@@ -9,5 +9,6 @@ object FileWriter {
     val bw = new BufferedWriter(new FileWriter(writer,true))
     val out = new PrintWriter(bw)
     out.println(x+"\n")
+    bw.close();
   }
 }
