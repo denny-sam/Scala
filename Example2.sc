@@ -2,7 +2,7 @@
 //vipul vaibhaw
 
 object Example2{
-  def main(args: array[String]){
+  def main(args: Array[String]){
     var a=0;
     val numList = List(1,2,3,4,5,6,7,8,9,10);
     for (a <- numList
