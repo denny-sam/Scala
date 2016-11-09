@@ -10,7 +10,7 @@ object ScalaWhileLoops {
       val dayofWeek = cal.get(Calendar.DAY_OF_WEEK)
       val dayofMonth = cal.get(Calendar.DAY_OF_MONTH)
       println(dayofWeek);
-      (dayofWeek == 4 && dayofMonth== 18)
+      (dayofWeek == 6 && dayofMonth== 13)
     }
     while(!isFridayThirteen()){
       println("Today isn't Friday 13th. Lame.")
