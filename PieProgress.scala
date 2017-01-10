@@ -4,6 +4,9 @@
   * image uploaded
   */
 
+/**
+ A bit about solution, checking angle made by new point wrt base line which is radius line joining center and (50,100). If the angle is less than progress angle and if pt lies inside circle then answer is black.
+*/
 class ProgressPieBar(){
   private val x_center = 50
   private val y_center = 50
