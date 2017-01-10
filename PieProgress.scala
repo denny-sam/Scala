@@ -1,5 +1,7 @@
 /**
   * Created by vipul vaibhaw on 1/9/2017.
+  * Facebook-Hacker-Cup-2017 qualification round problem.
+  * image uploaded
   */
 
 class ProgressPieBar(){
