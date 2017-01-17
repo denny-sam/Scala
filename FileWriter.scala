@@ -2,7 +2,7 @@ import java.io._;
 
 object FileWriter {
   def main (args:Array[String]){
-    write("Test","Hello");
+    write("Test","Hello")
   }
   def write(x:String,y:String){
     val writer = new File(x+".txt" )
